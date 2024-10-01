@@ -2,13 +2,29 @@ const App = () => {
 
 
 
-    return <div>
+    return (
+    <div>
+        <nav>
+            <div className="logo">
 
+                <img src="/images/brand_logo.png" alt="logo" />
 
-My First Component
+            </div>  
+            <ul>
+                <li href="#">Menu</li>
+                <li href="#">Location</li>
+                <li href="#">About</li>
+                <li href="#">Contact</li>
+            </ul>
 
-    </div>;
+            <button>
+                Login
+            </button>
+        </nav>
 
-}
+    </div>
+    );
+
+};
 
 export default App;
