@@ -1,7 +1,7 @@
 const Navigation = ()=>{
 
 
-return (        <nav>
+return (        <nav className="container">
     <div className="logo">
 
         <img src="/images/brand_logo.png" alt="logo" />
